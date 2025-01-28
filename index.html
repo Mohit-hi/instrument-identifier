@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrument Detector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Instrument Detector</h1>
+        <p>Identify instruments in real-time from live audio input!</p>
+    </header>
+    <main>
+        <div class="audio-container">
+            <button id="start-btn">Start Recording</button>
+            <canvas id="audio-visualizer"></canvas>
+            <div id="instrument-output">Detected Instrument: <span id="instrument-name">None</span></div>
+        </div>
+        <div class="instructions">
+            <h2>How It Works</h2>
+            <p>Click "Start Recording" to capture live audio. The system will analyze the sound and display the detected instrument here!</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Instrument Detector</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
